@@ -15,10 +15,13 @@ const Portofolio = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4 px-6 mt-12 justify-center">
+    <div
+      className="flex flex-col gap-4 px-6 mt-12 justify-center"
+      id="portfolio"
+    >
       <span
         data-aos="fade-left"
-        className="font-bold text-white text-[3rem] flex justify-center items-center"
+        className="font-bold text-white text-[3rem] flex justify-center items-center max-[792px]:text-[1.5rem]"
       >
         Portofolio
       </span>
